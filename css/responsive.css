@@ -1,0 +1,261 @@
+
+/*  responsive
+---------------------------------------------------------------------- /
+   1 - media screen and (max-width: 1199px)
+   2 - media screen and (max-width: 991px)
+   3 - media screen and (max-width: 767px)
+   4 - media screen and (max-width: 624px)
+   5 - media screen and (max-width: 567px)
+   6 - media screen and (max-width: 480px)
+   7 - media screen and (max-width: 380px)
+
+
+---------------------------------------------------------------------- */
+
+
+@media only screen and (max-width: 1199px) {
+		/**** header****/
+		.left_menu li {
+			padding-right: 30px;
+		}
+		/**** slider****/
+		
+		.slider_content h1 {
+			font-size: 42px;
+		}
+		
+		.slider_content p {
+			font-size: 17px;
+		}
+		
+		
+		
+		
+		/**** footer-widget****/
+		.footer-content {
+			width: 55%;
+			margin-left: 14px;
+		}
+		/**** footer****/
+}
+
+@media only screen and (max-width: 1024px){
+	
+}
+@media only screen and (max-width: 991px) {
+		/**** header****/
+		.hidden-x{
+			display:none;
+		}
+		
+		/**** main-menu****/
+		.main_menu_right a {
+			font-size: 13px;
+			padding: 0px 10px !important;
+		}
+		/**** slider****/
+		
+		.slider_content h2 {
+			font-size: 25px;
+		}
+		
+		.slider_content h1 {
+			font-size: 30px;
+		}
+		
+		.slider_content {
+			padding:0px;
+		}
+		.slider_content p {
+			max-width: 500px;
+			font-size: 15px;
+		}
+		.slider_content a {
+			padding: 10px 20px;
+			margin-right: 12px;
+			font-size: 11px;
+		}
+		.slider_iteam1 img {
+			margin-bottom: 68px;
+		}
+		.slider_content{
+			padding-top:200px;
+		}
+		/**** about****/
+		
+		.about-iteam {
+			margin-bottom: 70px;
+		}
+		.about {
+			padding-bottom: 0px;
+		}
+		
+		
+		
+		
+		/**** our-client****/
+		/**** pricing plan****/
+		/**** our blog****/
+		.blog-iteam {
+			margin-bottom: 30px;
+		}
+		#our-blog {
+			padding-bottom: 100px;
+		}
+		/**** footer-widget****/
+		.footer-widget-iteam {
+			padding-top: 30px;
+		}
+		#footer-widget {
+			padding-top: 70px;
+		}
+		.footer-img {
+			width: 20%;
+		}
+		/**** footer****/
+		.widget-image{
+			width: auto;
+		}
+		
+}
+
+
+@media only screen and (max-width: 767px){
+		.header-top {
+			padding-top: 70px;
+			padding-bottom: 50px;
+		}
+		.buttonsearch {
+			line-height: 0px;
+		}
+		/**** main-menu****/
+		.main_menu_right a {
+			line-height: 40px !important;
+			margin-left: 10px;
+		}
+		/**** slider****/
+		.slider_content1, .slider_content3{
+			margin-left:10px;
+		}
+		/**** about****/
+		.header-top {
+			padding-top: 70px;
+		}
+		
+		/**** gallery****/
+		.overlay-content p {
+			font-size: 15px;
+		}
+		.overlay-content h4 {
+			font-size: 16px;
+		}
+		/**** our-team****/
+		
+		
+		/**** our-client****/
+		.Client-top {
+			padding-top: 70px;
+		}
+		
+		/**** footer-widget****/
+		.footer-widget-iteam{
+			padding-left:10px;
+		}
+		
+		
+		/**** footer****/
+}
+@media only screen and (max-width: 640px){
+	
+	
+	
+}
+@media only screen and (max-width: 624px){
+	.slider_content p {
+		max-width: 400px;
+	}
+	
+	.about-top{
+		padding-bottom:90px;
+	}
+	.feature-content p {
+		font-size: 14px;
+	}
+	.overlay-content h4 {
+		font-size: 14px;
+	}
+	
+}	
+
+@media only screen and (max-width: 567px){
+	
+	.slider_content {
+		padding-top: 150px;
+	}
+	
+	.footer-content {
+		margin-left: 40px;
+	}
+	
+}
+
+@media only screen and (max-width: 480px){
+	.slider_content {
+		padding-top: 100px;
+	}
+	
+	
+	
+	
+	.footer-content {
+		margin-left: 50px;
+	}
+	
+	.col-xs-6{
+		width:100%;
+	}
+}	
+
+@media only screen and (max-width: 380px){
+	
+	
+	.footer-content {
+		margin-left: 70px;
+	}
+	#footer-widget {
+		padding-top: 30px;
+	}	
+}
+
+@media only screen and (max-width: 360px){
+	
+	#footer-widget {
+		padding-bottom: 40px;
+	}
+	#footer {
+		padding: 30px 0px 30px 0px;
+	}
+	.slider_content p {
+		font-size: 13px;
+		padding-bottom:10px;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
